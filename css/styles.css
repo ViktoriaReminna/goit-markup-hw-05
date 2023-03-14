@@ -578,7 +578,6 @@ width: 168px;
     left: 50%;
     transform: translate(-50%, -50%) scale(1); 
     transition: transform 250ms var(--timing-function);
-    
 
 
 }
@@ -599,6 +598,7 @@ width: 168px;
 }
 .modal-close:hover, .modal-close:focus {
     background-color: var(--hov-focus-color);
+    border: 1px solid var(--hov-focus-color);
      color: #fff;
 
 }
@@ -610,4 +610,5 @@ width: 168px;
 
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0);
+ 
 }
