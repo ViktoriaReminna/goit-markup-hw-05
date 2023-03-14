@@ -562,11 +562,12 @@ width: 168px;
     top: 0;
     left: 0;
     opacity: 1;
-    transition: opasity 250ms var(--timing-function), visibility 250ms var(--timing-function);
+    transition: opacity 250ms var(--timing-function), visibility 250ms var(--timing-function);
 
 }
 
 .modal {
+    
     width: 408px;
     min-height: 576px;
     padding: 24px;
